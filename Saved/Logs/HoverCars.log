@@ -1,4 +1,4 @@
-﻿Log file open, 12/03/17 18:12:35
+﻿Log file open, 12/03/17 20:24:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: HoverCars
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-305669276) SRandInit(-305669276).
+LogInit: Display: RandInit(-159521312) SRandInit(-159521312).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.173200
+LogStats: Stats thread started at 0.200561
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,369 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file D:/PROJECTS/Unreal/HoverCars/Binaries/Win64/UE4Editor-HoverCars-9181.dll (API version 3709383).
+LogModuleManager: Warning: Module file D:/PROJECTS/Unreal/HoverCars/Binaries/Win64/UE4Editor-HoverCars-5379.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-HoverCars.dll
+Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe HoverCars Development Win64 -project="D:/PROJECTS/Unreal/HoverCars/HoverCars.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for HoverCars (no existing makefile)
+@progress push 5%
+@progress pop
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1110.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1110.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1168.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1168.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1177.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1177.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1190.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1190.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1207.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1207.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1217.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1217.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1233.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1233.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1241.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1241.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1298.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1298.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1400.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1400.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1414.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1414.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1417.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1417.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1425.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1425.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1436.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1436.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1443.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1443.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1525.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1525.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1558.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1558.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1591.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1591.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-163.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-163.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1639.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1639.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-171.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-171.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1712.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1712.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1724.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1724.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-177.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-177.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1910.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1910.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1913.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1913.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1941.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1941.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1943.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-1943.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2044.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2044.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2058.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2058.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2156.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2156.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2173.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2173.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2256.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2256.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2308.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2308.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2321.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2321.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2348.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2348.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2352.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2352.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2441.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2441.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2449.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2449.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2528.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2528.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2529.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2529.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2560.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2560.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2566.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2566.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2592.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2592.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2815.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2815.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2910.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2910.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2912.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2912.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2979.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-2979.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3011.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3011.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3023.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3023.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3039.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3039.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3076.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3076.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3384.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3384.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3545.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3545.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3648.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-3648.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-372.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-372.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-393.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-393.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4051.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4051.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4085.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4085.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4230.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4230.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4299.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4299.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4333.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4333.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4411.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4411.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4489.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4489.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4521.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4521.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4537.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4537.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-455.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-455.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4616.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4616.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4803.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4803.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4844.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4844.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-496.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-496.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-515.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-515.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5168.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5168.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5172.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5172.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5189.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5189.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5222.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5222.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5229.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5229.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5277.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5277.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5403.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5403.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5428.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5428.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5586.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5586.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5597.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-5597.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6021.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6021.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6059.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6059.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6083.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6083.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-612.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-612.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6193.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6193.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6203.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6203.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6389.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6389.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6422.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6422.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6435.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6435.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6521.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6521.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6586.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6586.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6611.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6611.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6621.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6621.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6721.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-6721.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7100.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7100.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7129.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7129.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7150.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7150.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7194.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7194.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7257.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7257.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7276.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7276.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7278.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7278.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-749.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-749.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7579.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7579.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7752.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7752.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7798.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7798.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7885.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-7885.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-798.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-798.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8026.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8026.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8344.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8344.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8353.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8353.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8406.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8406.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8417.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8417.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8475.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8475.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8494.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8494.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8706.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8706.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8760.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8760.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8775.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8775.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8833.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8833.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-888.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-888.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8900.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-8900.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9042.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9042.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9181.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9181.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9202.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9202.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9232.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9232.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-924.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-924.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9280.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9280.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9293.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9293.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9348.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9348.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9376.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9376.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9496.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9496.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9577.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9577.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9639.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9639.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9671.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9671.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9717.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9717.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9791.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9791.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9915.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9915.pdb".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9958.dll".
+Deleting old hot reload file: "D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-9958.pdb".
+Performing 1 actions (3 in parallel)
+[1/1] Link UE4Editor-HoverCars.dll
+   Creating library D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HoverCars.suppressed.lib and object D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HoverCars.suppressed.exp
+Total build time: 47,44 seconds (Local executor: 0,96 seconds)
+LogModuleManager: Display: Found up-to-date module file D:/PROJECTS/Unreal/HoverCars/Binaries/Win64/UE4Editor-HoverCars.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -195,556 +557,476 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.03-17.12.38:614][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.03-17.12.38:614][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.03-17.12.38:630][  0]LogInit: Computer: VLEPA-PC
-[2017.12.03-17.12.38:630][  0]LogInit: User: vlePa
-[2017.12.03-17.12.38:630][  0]LogInit: CPU Page size=4096, Cores=3
-[2017.12.03-17.12.38:630][  0]LogInit: High frequency timer resolution =3.429442 MHz
-[2017.12.03-17.12.38:631][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.12.03-17.12.38:631][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.03-17.12.38:631][  0]LogMemory: Process Physical Memory: 271.96 MB used, 271.96 MB peak
-[2017.12.03-17.12.38:631][  0]LogMemory: Process Virtual Memory: 264.56 MB used, 264.56 MB peak
-[2017.12.03-17.12.38:631][  0]LogMemory: Physical Memory: 6006.18 MB used,  10278.17 MB free, 16284.35 MB total
-[2017.12.03-17.12.38:631][  0]LogMemory: Virtual Memory: 670.87 MB used,  10278.17 MB free, 134217728.00 MB total
-[2017.12.03-17.12.38:914][  0]LogInit: Using OS detected language (en-US).
-[2017.12.03-17.12.38:914][  0]LogInit: Using OS detected locale (hr-HR).
-[2017.12.03-17.12.38:918][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.03-17.12.38:919][  0]LogTextLocalizationManager: No localization for 'hr-HR' exists, so 'en-US' will be used for the locale.
-[2017.12.03-17.12.39:427][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.03-17.12.39:802][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.03-17.12.39:860][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
-[2017.12.03-17.12.39:860][  0]LogD3D11RHI:       2017/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.12.03-17.12.39:863][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.03-17.12.39:863][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.03-17.12.39:863][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.03-17.12.39:872][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.03-17.12.39:872][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.03-17.12.39:872][  0]LogWindows: EnumDisplayDevices:
-[2017.12.03-17.12.39:872][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
-[2017.12.03-17.12.39:872][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.03-17.12.39:873][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.03-17.12.39:873][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2017.12.03-17.12.39:873][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.12.03-17.12.39:873][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
-[2017.12.03-17.12.39:873][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.12.03-17.12.39:873][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.12.03-17.12.39:873][  0]LogRHI: Texture pool is 1412 MB (70% of 2017 MB)
-[2017.12.03-17.12.39:903][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.03-17.12.39:918][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.03-17.12.39:967][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/PROJECTS/Unreal/HoverCars/Intermediate/Shaders/WorkingDirectory/7360/).
-[2017.12.03-17.12.39:967][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vlePa/AppData/Local/Temp/UnrealShaderWorkingDir/016374BE4F0BF0D410AD1D829881510C/'.
-[2017.12.03-17.12.39:968][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.03-17.12.41:402][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.03-17.12.41:495][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.03-17.12.41:588][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.03-17.12.41:683][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.03-17.12.41:777][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.03-17.12.41:871][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.03-17.12.41:966][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.03-17.12.42:061][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.03-17.12.42:146][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.03-17.12.42:237][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.03-17.12.42:329][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.03-17.12.42:425][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.03-17.12.42:518][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.03-17.12.42:610][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.03-17.12.42:794][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.03-17.12.42:794][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.03-17.12.42:888][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.03-17.12.42:966][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.03-17.12.43:116][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.03-17.12.43:166][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.03-17.12.43:258][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.03-17.12.43:350][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.03-17.12.43:443][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.03-17.12.43:534][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.03-17.12.43:534][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.03-17.12.44:445][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.03-17.12.44:575][  0]LogDerivedDataCache: Loaded boot cache 0.13s 78MB C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.03-17.12.44:576][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.03-17.12.44:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/PROJECTS/Unreal/HoverCars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.03-17.12.44:576][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.03-17.12.44:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/PROJECTS/Unreal/HoverCars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.03-17.12.44:576][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.03-17.12.44:598][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.03-17.12.44:611][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vlePa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.03-17.12.44:628][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.03-17.12.44:628][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.03-17.12.44:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.03-17.12.44:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.03-17.12.45:169][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.03-17.12.45:744][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.03-17.12.45:822][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.03-17.12.45:822][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.03-17.12.45:822][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.03-17.12.45:822][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.03-17.12.45:822][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.03-17.12.45:867][  0]LogNetVersion: HoverCars , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 846766821)
-[2017.12.03-17.12.46:110][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
-[2017.12.03-17.12.46:873][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068253 seconds
-[2017.12.03-17.12.46:880][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.03-17.12.46:880][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.03-17.12.46:880][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.03-17.12.46:986][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.03-17.12.51:508][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.03-17.12.51:580][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.03-17.12.52:902][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.03-17.12.53:659][  0]SourceControl: Source control is disabled
-[2017.12.03-17.12.53:659][  0]SourceControl: Source control is disabled
-[2017.12.03-17.12.53:762][  0]SourceControl: Source control is disabled
-[2017.12.03-17.12.53:864][  0]SourceControl: Source control is disabled
-[2017.12.03-17.12.55:445][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.03-17.12.55:967][  0]LogOcInput: OculusInput pre-init called
-[2017.12.03-17.12.56:460][  0]LogEngine: Initializing Engine...
-[2017.12.03-17.12.56:462][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.03-17.12.56:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.03-17.12.56:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.03-17.12.57:004][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.03-17.12.57:021][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.12.57:041][  0]LogInit: FAudioDevice initialized.
-[2017.12.03-17.12.57:157][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.03-17.12.57:181][  0]LogInit: Texture streaming: Enabled
-[2017.12.03-17.12.57:380][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.03-17.12.57:380][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5F47982A-449D-7C1D-F47F-0B82ECF7AD00}
-[2017.12.03-17.12.57:626][  0]LogInit: Transaction tracking system initialized
-[2017.12.03-17.12.58:229][  0]BlueprintLog: New page: Editor Load
-[2017.12.03-17.12.59:940][  0]LocalizationService: Localization service is disabled
-[2017.12.03-17.13.00:931][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
-[2017.12.03-17.13.00:931][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
-[2017.12.03-17.13.00:931][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickCPP/TwinStickOverview.TwinStickOverview_C'
-[2017.12.03-17.13.01:343][  0]LogConsoleResponse: Display: 
-[2017.12.03-17.13.01:616][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.03-17.13.01:616][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.03-17.13.01:616][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.03-17.13.02:500][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/' took 0.01s
-[2017.12.03-17.13.03:941][  0]SourceControl: Source control is disabled
-[2017.12.03-17.13.03:941][  0]Cmd: MAP LOAD FILE="D:/PROJECTS/Unreal/HoverCars/Content/Maps/TestingGrounds.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.03-17.13.03:941][  0]LightingResults: New page: Lighting Build
-[2017.12.03-17.13.04:022][  0]MapCheck: New page: Map Check
-[2017.12.03-17.13.04:022][  0]LightingResults: New page: Lighting Build
-[2017.12.03-17.13.04:344][  0]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.13.04:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.03-17.13.04:384][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.03-17.13.04:467][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.046ms to complete.
-[2017.12.03-17.13.04:467][  0]LogFileHelpers: Loading map 'TestingGrounds' took 0.526
-[2017.12.03-17.13.04:746][  0]LogCollectionManager: Loaded 0 collections in 0.002737 seconds
-[2017.12.03-17.13.04:865][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Saved/Collections/' took 0.01s
-[2017.12.03-17.13.04:866][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/Developers/vlePa/Collections/' took 0.01s
-[2017.12.03-17.13.04:866][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/Collections/' took 0.01s
-[2017.12.03-17.13.04:866][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.03-17.13.04:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2370 classes and 524 folders.
-[2017.12.03-17.13.05:007][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.12.03-17.13.05:076][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.12.03-17.13.06:405][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.12.03-17.13.06:437][  0]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.03-17.13.06:445][  0]LogSlate: Took 0.000443 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.03-17.13.06:450][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.03-17.13.06:451][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.12.03-17.13.06:655][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HoverCars
-[2017.12.03-17.13.06:656][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.12.03-17.13.06:656][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2017.12.03-17.13.06:656][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2017.12.03-17.13.06:656][  0]LogTemp: BranchPath = VLEPA-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = VLEPA-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2017.12.03-17.13.06:656][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\vlePa\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.12.03-17.13.06:657][  0]LogRenderer: Reallocating scene render targets to support 1648x940 Format 10 NumSamples 1 (Frame:1).
-[2017.12.03-17.13.06:869][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.12.03-17.13.06:870][  0]LogLoad: (Engine Initialization) Total time: 32.73 seconds
-[2017.12.03-17.13.06:870][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.03-17.13.06:870][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.03-17.13.06:870][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.03-17.13.06:880][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.03-17.13.06:906][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.03-17.13.06:968][  1]LogAssetRegistry: Asset discovery search completed in 20.8796 seconds
-[2017.12.03-17.13.06:970][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.03-17.13.06:970][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000210 seconds (updated 0 objects)
-[2017.12.03-17.13.07:902][102]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.03-17.13.15:142][952]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.03-17.13.15:181][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.03-17.13.15:181][952]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 7:13:15 PM)
-[2017.12.03-17.13.15:182][952]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
-[2017.12.03-17.13.15:192][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010682s)
-[2017.12.03-17.13.15:194][952]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.13.15:195][952]LogPlayLevel: PIE: World Init took: (0.001923s)
-[2017.12.03-17.13.15:195][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.013707s)
-[2017.12.03-17.13.15:225][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.13.15:241][952]LogInit: FAudioDevice initialized.
-[2017.12.03-17.13.15:300][952]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
-[2017.12.03-17.13.15:303][952]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-18.13.15
-[2017.12.03-17.13.15:303][952]LogWorld: Bringing up level for play took: 0.001741
-[2017.12.03-17.13.15:385][952]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2017.12.03-17.13.15:387][952]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds -0.463
-[2017.12.03-17.13.21:201][622]Candidate modules for hot reload:
-[2017.12.03-17.13.21:201][622]  HoverCars
-[2017.12.03-17.13.21:201][622]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe HoverCars -ModuleWithSuffix HoverCars 5379 Win64 Development -editorrecompile -canskiplink "D:/PROJECTS/Unreal/HoverCars/HoverCars.uproject" ]
-[2017.12.03-17.13.21:203][622]Warning: Starting HotReload took  0.0s.
-[2017.12.03-17.13.32:861][  0]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 7:13:32 PM
-[2017.12.03-17.13.32:861][  0]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2017.12.03-17.13.32:862][  0]CompilerResultsLog: Creating makefile for hot reloading HoverCars (ini files are newer than UBTMakefile)
-[2017.12.03-17.13.32:862][  0]CompilerResultsLog: Compiling game modules for hot reload
-[2017.12.03-17.13.32:862][  0]CompilerResultsLog: Target is up to date
-[2017.12.03-17.13.32:862][  0]CompilerResultsLog: Total build time: 11,35 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2017.12.03-17.13.32:862][  0]LogMainFrame: MainFrame: Module compiling took 11.666 seconds
-[2017.12.03-17.13.32:911][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2371 classes and 526 folders.
-[2017.12.03-17.13.32:911][  0]Display: HotReload took 11.7s.
-[2017.12.03-17.13.35:510][310]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.03-17.13.35:530][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.03-17.13.35:530][310]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 7:13:35 PM)
-[2017.12.03-17.13.35:530][310]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
-[2017.12.03-17.13.35:538][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007634s)
-[2017.12.03-17.13.35:539][310]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.13.35:539][310]LogPlayLevel: PIE: World Init took: (0.001101s)
-[2017.12.03-17.13.35:540][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.009513s)
-[2017.12.03-17.13.35:575][310]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.13.35:590][310]LogInit: FAudioDevice initialized.
-[2017.12.03-17.13.35:625][310]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
-[2017.12.03-17.13.35:627][310]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-18.13.35
-[2017.12.03-17.13.35:628][310]LogWorld: Bringing up level for play took: 0.001518
-[2017.12.03-17.13.35:630][310]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds -0.22
-[2017.12.03-17.44.13:000][774]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.03-17.44.13:021][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.03-17.44.13:022][774]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 7:44:13 PM)
-[2017.12.03-17.44.13:022][774]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
-[2017.12.03-17.44.13:030][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007993s)
-[2017.12.03-17.44.13:031][774]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.44.13:031][774]LogPlayLevel: PIE: World Init took: (0.001043s)
-[2017.12.03-17.44.13:032][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.009853s)
-[2017.12.03-17.44.13:068][774]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.44.13:084][774]LogInit: FAudioDevice initialized.
-[2017.12.03-17.44.13:116][774]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
-[2017.12.03-17.44.13:119][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-18.44.13
-[2017.12.03-17.44.13:119][774]LogWorld: Bringing up level for play took: 0.002030
-[2017.12.03-17.44.13:121][774]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds -0.729
-[2017.12.03-17.44.14:646][947]Cmd: LevelEditor.ToggleImmersive
-[2017.12.03-17.44.14:800][948]LogRenderer: Reallocating scene render targets to support 1892x1064 Format 10 NumSamples 1 (Frame:175).
-[2017.12.03-17.44.14:855][949]LogRenderer: Reallocating scene render targets to support 2560x1400 Format 10 NumSamples 1 (Frame:177).
-[2017.12.03-17.46.42:841][261]Cmd: SELECT NONE
-[2017.12.03-17.46.43:826][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
-[2017.12.03-17.47.40:750][770]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.03-17.47.40:771][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.03-17.47.40:772][770]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 7:47:40 PM)
-[2017.12.03-17.47.40:772][770]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
-[2017.12.03-17.47.40:780][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007745s)
-[2017.12.03-17.47.40:781][770]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.47.40:782][770]LogPlayLevel: PIE: World Init took: (0.001558s)
-[2017.12.03-17.47.40:782][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.010119s)
-[2017.12.03-17.47.40:811][770]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.47.40:827][770]LogInit: FAudioDevice initialized.
-[2017.12.03-17.47.40:860][770]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
-[2017.12.03-17.47.40:862][770]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-18.47.40
-[2017.12.03-17.47.40:862][770]LogWorld: Bringing up level for play took: 0.001639
-[2017.12.03-17.47.40:864][770]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds 1.014
-[2017.12.03-17.47.41:413][827]Cmd: LevelEditor.ToggleImmersive
-[2017.12.03-17.48.14:769][594]LogTemp: Repeating last play command: Selected Viewport
-[2017.12.03-17.48.14:790][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.03-17.48.14:790][594]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 7:48:14 PM)
-[2017.12.03-17.48.14:790][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
-[2017.12.03-17.48.14:798][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008068s)
-[2017.12.03-17.48.14:799][594]LogAIModule: Creating AISystem for world TestingGrounds
-[2017.12.03-17.48.14:800][594]LogPlayLevel: PIE: World Init took: (0.001018s)
-[2017.12.03-17.48.14:800][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.009836s)
-[2017.12.03-17.48.14:834][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.03-17.48.14:849][594]LogInit: FAudioDevice initialized.
-[2017.12.03-17.48.14:883][594]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
-[2017.12.03-17.48.14:885][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-18.48.14
-[2017.12.03-17.48.14:886][594]LogWorld: Bringing up level for play took: 0.001650
-[2017.12.03-17.48.14:888][594]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds 1.038
-[2017.12.03-17.48.32:237][636]Cmd: LevelEditor.ToggleImmersive
-[2017.12.03-17.51.10:196][520]Cmd: QUIT_EDITOR
-[2017.12.03-17.51.10:596][520]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.03-17.51.10:610][520]LogExit: Preparing to exit.
-[2017.12.03-17.51.11:502][520]LogExit: Editor shut down
-[2017.12.03-17.51.11:517][520]LogExit: Transaction tracking system shut down
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.03-17.51.11:747][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.03-17.51.11:800][520]LogExit: Object subsystem successfully closed.
-[2017.12.03-17.51.11:820][520]LogD3D11RHI: Shutdown
-[2017.12.03-17.51.11:820][520]LogD3D11RHI: CleanupD3DDevice
-[2017.12.03-17.51.11:824][520]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.03-17.51.11:849][520]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2017.12.03-17.51.11:849][520]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2017.12.03-17.51.11:849][520]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (550)
-[2017.12.03-17.51.11:849][520]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
-[2017.12.03-17.51.11:849][520]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2017.12.03-17.51.11:849][520]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2017.12.03-17.51.11:850][520]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/Collections/' was aborted.
-[2017.12.03-17.51.11:850][520]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/Developers/vlePa/Collections/' was aborted.
-[2017.12.03-17.51.11:850][520]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Saved/Collections/' was aborted.
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.12.03-17.51.11:850][520]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.12.03-17.51.11:851][520]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.12.03-17.51.11:852][520]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.12.03-17.51.12:667][520]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.12.03-17.51.12:668][520]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.12.03-17.51.12:721][520]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.12.03-17.51.12:722][520]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2017.12.03-17.51.12:794][520]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2017.12.03-17.51.12:795][520]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2017.12.03-17.51.12:796][520]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2017.12.03-17.51.12:796][520]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2017.12.03-17.51.12:796][520]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2017.12.03-17.51.12:796][520]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Binaries/Win64' was aborted.
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module HoverCars (270)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.12.03-17.51.12:797][520]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.12.03-17.51.12:798][520]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.12.03-17.51.12:798][520]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.12.03-17.51.12:898][520]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.12.03-17.51.12:999][520]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.12.03-17.51.13:000][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.12.03-17.51.13:000][520]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.12.03-17.51.13:000][520]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.12.03-17.51.13:000][520]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.12.03-17.51.13:003][520]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.12.03-17.51.13:009][520]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.12.03-17.51.13:012][520]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.03-17.51.13:015][520]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.12.03-17.51.13:055][520]LogDerivedDataCache: Shutdown
-[2017.12.03-17.51.13:055][520]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.12.03-17.51.13:055][520]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.12.03-17.51.13:055][520]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.12.03-17.51.13:055][520]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.12.03-17.51.13:056][520]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.03-17.51.13:057][520]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.03-17.51.13:057][520]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.03-17.51.13:057][520]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B43F1DD9B-4A5D-A1C5-B284-AE8AAEB982BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=e9c69445431003b3f20e65aa515943cc%7Ccf5ad1bee6b7449fb243805396e8dc92%7C38512122-0f0a-4d66-b01d-8f62fbd5fc35&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.03-17.51.13:083][520]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.03-17.51.13:085][520]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.03-17.51.13:087][520]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.03-17.51.13:091][520]LogExit: Exiting.
-[2017.12.03-17.51.13:107][520]Log file closed, 12/03/17 18:51:13
+[2017.12.03-19.25.46:710][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-19.25.46:710][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.03-19.25.46:739][  0]LogInit: Computer: VLEPA-PC
+[2017.12.03-19.25.46:739][  0]LogInit: User: vlePa
+[2017.12.03-19.25.46:739][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.12.03-19.25.46:739][  0]LogInit: High frequency timer resolution =3.429449 MHz
+[2017.12.03-19.25.46:739][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.03-19.25.46:739][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.03-19.25.46:739][  0]LogMemory: Process Physical Memory: 277.98 MB used, 277.98 MB peak
+[2017.12.03-19.25.46:739][  0]LogMemory: Process Virtual Memory: 272.16 MB used, 272.16 MB peak
+[2017.12.03-19.25.46:739][  0]LogMemory: Physical Memory: 3340.25 MB used,  12944.10 MB free, 16284.35 MB total
+[2017.12.03-19.25.46:739][  0]LogMemory: Virtual Memory: 729.82 MB used,  12944.10 MB free, 134217728.00 MB total
+[2017.12.03-19.25.47:170][  0]LogInit: Using OS detected language (en-US).
+[2017.12.03-19.25.47:170][  0]LogInit: Using OS detected locale (hr-HR).
+[2017.12.03-19.25.47:247][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.03-19.25.47:248][  0]LogTextLocalizationManager: No localization for 'hr-HR' exists, so 'en-US' will be used for the locale.
+[2017.12.03-19.25.47:819][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.03-19.25.50:572][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.03-19.25.51:389][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.12.03-19.25.51:389][  0]LogD3D11RHI:       2017/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.03-19.25.51:391][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.03-19.25.51:391][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.03-19.25.51:391][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.03-19.25.51:398][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.03-19.25.51:398][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.03-19.25.51:398][  0]LogWindows: EnumDisplayDevices:
+[2017.12.03-19.25.51:399][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.12.03-19.25.51:399][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.03-19.25.51:399][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.03-19.25.51:399][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.12.03-19.25.51:399][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.03-19.25.51:399][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.12.03-19.25.51:399][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.03-19.25.51:399][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.03-19.25.51:399][  0]LogRHI: Texture pool is 1412 MB (70% of 2017 MB)
+[2017.12.03-19.25.51:429][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.03-19.25.51:444][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.03-19.25.51:494][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/PROJECTS/Unreal/HoverCars/Intermediate/Shaders/WorkingDirectory/4536/).
+[2017.12.03-19.25.51:494][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vlePa/AppData/Local/Temp/UnrealShaderWorkingDir/DA90565D4BA1446DD9806C917F0A66A3/'.
+[2017.12.03-19.25.51:494][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.03-19.25.54:084][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.03-19.25.54:172][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.03-19.25.54:263][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.03-19.25.54:351][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.03-19.25.54:445][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.03-19.25.54:531][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.03-19.25.54:617][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.03-19.25.54:703][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.03-19.25.54:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.03-19.25.54:864][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.03-19.25.54:949][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.03-19.25.55:033][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.03-19.25.55:117][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.03-19.25.55:201][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.03-19.25.55:375][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.03-19.25.55:375][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.03-19.25.55:476][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.03-19.25.55:543][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.03-19.25.55:690][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.03-19.25.55:737][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.03-19.25.55:820][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.03-19.25.55:903][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.03-19.25.55:988][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.03-19.25.56:079][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.03-19.25.56:079][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.03-19.25.56:932][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.03-19.25.57:359][  0]LogDerivedDataCache: Loaded boot cache 0.43s 78MB C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.03-19.25.57:359][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.03-19.25.57:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/PROJECTS/Unreal/HoverCars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.03-19.25.57:359][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.03-19.25.57:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/PROJECTS/Unreal/HoverCars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.03-19.25.57:360][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.03-19.25.57:392][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.03-19.25.57:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vlePa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.03-19.25.57:421][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.03-19.25.57:421][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.03-19.25.57:441][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-19.25.57:441][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-19.25.58:198][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-19.25.58:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.03-19.25.58:966][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.03-19.25.58:966][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.03-19.25.58:966][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.03-19.25.58:966][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.03-19.25.58:966][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.03-19.25.59:030][  0]LogNetVersion: HoverCars , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 846766821)
+[2017.12.03-19.25.59:470][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2017.12.03-19.26.00:632][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062358 seconds
+[2017.12.03-19.26.00:639][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.03-19.26.00:639][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.03-19.26.00:639][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.03-19.26.00:735][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.03-19.26.07:573][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.03-19.26.07:641][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.03-19.26.08:993][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.03-19.26.09:784][  0]SourceControl: Source control is disabled
+[2017.12.03-19.26.09:784][  0]SourceControl: Source control is disabled
+[2017.12.03-19.26.09:877][  0]SourceControl: Source control is disabled
+[2017.12.03-19.26.09:970][  0]SourceControl: Source control is disabled
+[2017.12.03-19.26.11:434][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.03-19.26.11:905][  0]LogOcInput: OculusInput pre-init called
+[2017.12.03-19.26.12:374][  0]LogEngine: Initializing Engine...
+[2017.12.03-19.26.12:377][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.03-19.26.12:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.03-19.26.12:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.03-19.26.13:056][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.03-19.26.13:072][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-19.26.13:107][  0]LogInit: FAudioDevice initialized.
+[2017.12.03-19.26.13:213][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/vlePa/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.03-19.26.13:236][  0]LogInit: Texture streaming: Enabled
+[2017.12.03-19.26.13:420][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.03-19.26.13:677][  0]LogInit: Transaction tracking system initialized
+[2017.12.03-19.26.14:278][  0]BlueprintLog: New page: Editor Load
+[2017.12.03-19.26.15:961][  0]LocalizationService: Localization service is disabled
+[2017.12.03-19.26.16:936][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
+[2017.12.03-19.26.16:936][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/TwinStickOverview'
+[2017.12.03-19.26.16:937][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TwinStickCPP/TwinStickOverview.TwinStickOverview_C'
+[2017.12.03-19.26.17:357][  0]LogConsoleResponse: Display: 
+[2017.12.03-19.26.18:084][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.03-19.26.18:084][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.03-19.26.18:084][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.03-19.26.19:134][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/' took 0.01s
+[2017.12.03-19.26.20:492][  0]SourceControl: Source control is disabled
+[2017.12.03-19.26.20:492][  0]Cmd: MAP LOAD FILE="D:/PROJECTS/Unreal/HoverCars/Content/Maps/TestingGrounds.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.03-19.26.20:492][  0]LightingResults: New page: Lighting Build
+[2017.12.03-19.26.20:571][  0]MapCheck: New page: Map Check
+[2017.12.03-19.26.20:571][  0]LightingResults: New page: Lighting Build
+[2017.12.03-19.26.21:018][  0]LogAIModule: Creating AISystem for world TestingGrounds
+[2017.12.03-19.26.21:035][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.03-19.26.21:057][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.03-19.26.21:140][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.558ms to complete.
+[2017.12.03-19.26.21:140][  0]LogFileHelpers: Loading map 'TestingGrounds' took 0.648
+[2017.12.03-19.26.21:454][  0]LogCollectionManager: Loaded 0 collections in 0.003443 seconds
+[2017.12.03-19.26.21:571][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Saved/Collections/' took 0.01s
+[2017.12.03-19.26.21:571][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/Developers/vlePa/Collections/' took 0.01s
+[2017.12.03-19.26.21:571][  0]LogFileCache: Scanning file cache for directory 'D:/PROJECTS/Unreal/HoverCars/Content/Collections/' took 0.01s
+[2017.12.03-19.26.21:571][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.03-19.26.21:587][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2370 classes and 524 folders.
+[2017.12.03-19.26.21:708][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.12.03-19.26.22:121][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.12.03-19.26.23:580][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.03-19.26.23:624][  0]LogSlate: Took 0.008996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-19.26.23:639][  0]LogSlate: Took 0.007921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.03-19.26.23:653][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HoverCars
+[2017.12.03-19.26.23:653][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.03-19.26.23:653][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.03-19.26.23:653][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.03-19.26.23:653][  0]LogTemp: BranchPath = VLEPA-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = VLEPA-PC/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.03-19.26.23:653][  0]LogSlate: Took 0.007831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.03-19.26.23:826][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\vlePa\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.03-19.26.23:826][  0]LogRenderer: Reallocating scene render targets to support 1648x940 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-19.26.24:040][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.03-19.26.24:041][  0]LogLoad: (Engine Initialization) Total time: 103.30 seconds
+[2017.12.03-19.26.24:041][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.03-19.26.24:041][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.03-19.26.24:041][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.03-19.26.24:076][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.03-19.26.24:162][  1]LogAssetRegistry: Asset discovery search completed in 24.7138 seconds
+[2017.12.03-19.26.24:164][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.03-19.26.24:164][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2017.12.03-19.26.29:570][558]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.03-19.26.29:603][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-19.26.29:604][558]PIE: New page: PIE session: TestingGrounds (Dec 3, 2017, 9:26:29 PM)
+[2017.12.03-19.26.29:604][558]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingGrounds
+[2017.12.03-19.26.29:613][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009232s)
+[2017.12.03-19.26.29:614][558]LogAIModule: Creating AISystem for world TestingGrounds
+[2017.12.03-19.26.29:615][558]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.12.03-19.26.29:615][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingGrounds.TestingGrounds to /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds (0.010603s)
+[2017.12.03-19.26.29:650][558]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-19.26.29:664][558]LogInit: FAudioDevice initialized.
+[2017.12.03-19.26.29:721][558]LogLoad: Game class is 'HoverCarsGameMode_BP_C'
+[2017.12.03-19.26.29:723][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingGrounds.TestingGrounds up for play (max tick rate 0) at 2017.12.03-20.26.29
+[2017.12.03-19.26.29:724][558]LogWorld: Bringing up level for play took: 0.001488
+[2017.12.03-19.26.29:798][558]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.12.03-19.26.29:800][558]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestingGrounds 0.824
+[2017.12.03-19.26.45:234][372]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-19.26.45:481][373]Cmd: QUIT_EDITOR
+[2017.12.03-19.26.45:956][373]LogExit: Preparing to exit.
+[2017.12.03-19.26.46:730][373]LogExit: Editor shut down
+[2017.12.03-19.26.46:737][373]LogExit: Transaction tracking system shut down
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.03-19.26.46:881][373]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.03-19.26.46:929][373]LogExit: Object subsystem successfully closed.
+[2017.12.03-19.26.46:947][373]LogD3D11RHI: Shutdown
+[2017.12.03-19.26.46:947][373]LogD3D11RHI: CleanupD3DDevice
+[2017.12.03-19.26.46:950][373]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.03-19.26.46:973][373]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2017.12.03-19.26.46:973][373]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
+[2017.12.03-19.26.46:973][373]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (550)
+[2017.12.03-19.26.46:973][373]LogModuleManager: Shutting down and abandoning module AddContentDialog (548)
+[2017.12.03-19.26.46:973][373]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.03-19.26.46:974][373]LogModuleManager: Shutting down and abandoning module WidgetCarousel (547)
+[2017.12.03-19.26.46:974][373]LogModuleManager: Shutting down and abandoning module EditorWidgets (544)
+[2017.12.03-19.26.46:974][373]LogModuleManager: Shutting down and abandoning module CollectionManager (542)
+[2017.12.03-19.26.46:974][373]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/Collections/' was aborted.
+[2017.12.03-19.26.46:974][373]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Content/Developers/vlePa/Collections/' was aborted.
+[2017.12.03-19.26.46:975][373]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Saved/Collections/' was aborted.
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module SceneOutliner (540)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
+[2017.12.03-19.26.46:975][373]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module SessionServices (480)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
+[2017.12.03-19.26.46:976][373]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module MergeActors (448)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module SizeMap (446)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module TreeMap (444)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2017.12.03-19.26.47:688][373]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2017.12.03-19.26.47:742][373]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module Toolbox (386)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module OutputLog (380)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module GammaUI (378)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module Documentation (376)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module MovieScene (372)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module PortalServices (364)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module AIModule (358)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
+[2017.12.03-19.26.47:743][373]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2017.12.03-19.26.47:822][373]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2017.12.03-19.26.47:822][373]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2017.12.03-19.26.47:822][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2017.12.03-19.26.47:822][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2017.12.03-19.26.47:823][373]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2017.12.03-19.26.47:824][373]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2017.12.03-19.26.47:824][373]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2017.12.03-19.26.47:825][373]LogDirectoryWatcher: A directory notification for 'D:/PROJECTS/Unreal/HoverCars/Binaries/Win64' was aborted.
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module HoverCars (272)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2017.12.03-19.26.47:825][373]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2017.12.03-19.26.47:927][373]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2017.12.03-19.26.48:027][373]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2017.12.03-19.26.48:028][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2017.12.03-19.26.48:028][373]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2017.12.03-19.26.48:028][373]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2017.12.03-19.26.48:028][373]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2017.12.03-19.26.48:031][373]LogModuleManager: Shutting down and abandoning module Media (223)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2017.12.03-19.26.48:037][373]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2017.12.03-19.26.48:038][373]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2017.12.03-19.26.48:038][373]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2017.12.03-19.26.48:038][373]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2017.12.03-19.26.48:038][373]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module Core (174)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
+[2017.12.03-19.26.48:042][373]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
+[2017.12.03-19.26.48:043][373]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
+[2017.12.03-19.26.48:429][373]LogDerivedDataCache: Shutdown
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2017.12.03-19.26.48:429][373]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2017.12.03-19.26.48:430][373]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2017.12.03-19.26.48:430][373]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.03-19.26.48:430][373]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5BA13CAB-49CB-3478-5E61-1BA3B6729630%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=e9c69445431003b3f20e65aa515943cc%7Ccf5ad1bee6b7449fb243805396e8dc92%7C38512122-0f0a-4d66-b01d-8f62fbd5fc35&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.03-19.26.48:459][373]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2017.12.03-19.26.48:460][373]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2017.12.03-19.26.48:460][373]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.03-19.26.48:460][373]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.03-19.26.48:461][373]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.03-19.26.48:461][373]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.03-19.26.48:461][373]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.03-19.26.48:461][373]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.03-19.26.48:461][373]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.03-19.26.48:462][373]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.03-19.26.48:466][373]LogExit: Exiting.
+[2017.12.03-19.26.48:483][373]Log file closed, 12/03/17 20:26:48

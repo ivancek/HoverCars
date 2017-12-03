@@ -1,0 +1,16 @@
+﻿  Creating makefile for hot reloading HoverCarsEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 4 actions (3 in parallel)
+  CarPlayerController.cpp
+  CarPlayerController.gen.cpp
+d:\projects\unreal\hovercars\source\hovercars\car\CarPlayerController.h(25): error C2143: syntax error: missing ';' before '*'
+d:\projects\unreal\hovercars\source\hovercars\car\CarPlayerController.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\projects\unreal\hovercars\source\hovercars\car\CarPlayerController.h(25): error C2238: unexpected token(s) preceding ';'
+D:\PROJECTS\Unreal\HoverCars\Source\HoverCars\Car\CarPlayerController.cpp(11): error C2065: 'MovementComponent': undeclared identifier
+D:\PROJECTS\Unreal\HoverCars\Source\HoverCars\Car\CarPlayerController.cpp(13): error C2065: 'MovementComponent': undeclared identifier
+D:\PROJECTS\Unreal\HoverCars\Source\HoverCars\Car/CarPlayerController.h(25): error C2143: syntax error: missing ';' before '*'
+D:\PROJECTS\Unreal\HoverCars\Source\HoverCars\Car/CarPlayerController.h(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\PROJECTS\Unreal\HoverCars\Source\HoverCars\Car/CarPlayerController.h(25): error C2238: unexpected token(s) preceding ';'
+ERROR : UBT error : Failed to produce item: D:\PROJECTS\Unreal\HoverCars\Binaries\Win64\UE4Editor-HoverCars-4466.dll
+  Total build time: 10,92 seconds (Local executor: 0,00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" HoverCarsEditor Win64 Development "D:\PROJECTS\Unreal\HoverCars\HoverCars.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

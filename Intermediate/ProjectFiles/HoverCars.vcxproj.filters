@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HoverCars.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E3BDF2ED-D0F0-40EC-92E7-2333F8CDF797}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoverCars.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HoverCarsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0FD1FFAB-327A-42CF-AB5F-EE0CEDCE0536}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HoverCars">
+      <UniqueIdentifier>{3F4C9B90-2C67-4223-B144-0FDDF2E88A48}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoverCars\HoverCars.Build.cs">
+      <Filter>Source\HoverCars</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HoverCars\HoverCars.cpp">
+      <Filter>Source\HoverCars</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoverCars\HoverCars.h">
+      <Filter>Source\HoverCars</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoverCars\HoverCarsGameModeBase.cpp">
+      <Filter>Source\HoverCars</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoverCars\HoverCarsGameModeBase.h">
+      <Filter>Source\HoverCars</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoverCars\Car">
+      <UniqueIdentifier>{B7092ADB-9B91-487F-AFF4-AA93A4C85E67}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoverCars\Car\Car.cpp">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoverCars\Car\Car.h">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HoverCars\Car\CarPlayerController.h">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HoverCars\Car\CarMovementComponent.h">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HoverCars\Car\CarThruster.h">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HoverCars\Car\CarAIController.h">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HoverCars\Car\CarPlayerController.cpp">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HoverCars\Car\CarMovementComponent.cpp">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HoverCars\Car\CarThruster.cpp">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HoverCars\Car\CarAIController.cpp">
+      <Filter>Source\HoverCars\Car</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

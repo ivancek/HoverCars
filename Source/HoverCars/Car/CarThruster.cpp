@@ -13,10 +13,10 @@ void UCarThruster::BeginPlay()
 void UCarThruster::SetThrottle(float Throw)
 {
 	// We want to be able to steer when not grounded, but not fully.
-	if (!isGrounded)
+	/*if (!isGrounded)
 	{ 
 		Throw = Throw / 4; 
-	}
+	}*/
 
 	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 

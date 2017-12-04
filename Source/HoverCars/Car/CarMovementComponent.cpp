@@ -69,17 +69,17 @@ void UCarMovementComponent::IntendTurn(float Throw)
 // Expects a positive input to properly turn.
 void UCarMovementComponent::IntendTurnRight(float Throw)
 {
-	if (!FrontLeftThruster || !RearRightThruster) { return; }
+	if (!FrontRightThruster || !RearLeftThruster) { return; }
 
-	RearRightThruster->SetThrottle(Throw);
+	RearLeftThruster->SetThrottle(Throw);
 }
 
 // Expects a positive input to properly turn.
 void UCarMovementComponent::IntendTurnLeft(float Throw)
 {
-	if (!FrontRightThruster || !RearLeftThruster) { return; }
+	if (!FrontLeftThruster || !RearRightThruster) { return; }
 
-	RearLeftThruster->SetThrottle(Throw);
+	RearRightThruster->SetThrottle(Throw);
 }
 
 // Applies hover force to keep the vehicle above ground.

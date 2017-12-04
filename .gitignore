@@ -6,3 +6,6 @@
 
 # Compiled Dynamic libraries
 *.pdb
+
+# Art folder
+Art/*

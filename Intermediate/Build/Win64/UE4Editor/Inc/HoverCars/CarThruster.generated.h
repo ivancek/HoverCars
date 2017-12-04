@@ -63,7 +63,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCarThruster); \
 
 #define HoverCars_Source_HoverCars_Car_CarThruster_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HoverDistance() { return STRUCT_OFFSET(UCarThruster, HoverDistance); } \
-	FORCEINLINE static uint32 __PPO__HoverPower() { return STRUCT_OFFSET(UCarThruster, HoverPower); } \
 	FORCEINLINE static uint32 __PPO__ThrustPower() { return STRUCT_OFFSET(UCarThruster, ThrustPower); }
 
 

@@ -24,11 +24,10 @@ private:
 	UPrimitiveComponent* CarRoot = nullptr;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float HoverDistance = 100;
+	float HoverDistance = 100.0f;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float HoverPower = 100;
-	
-	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float ThrustPower = 100;
+	float ThrustPower = 500000.0f;
+
+	bool isGrounded = false;
 };

@@ -34,8 +34,6 @@ void UCarMovementComponent::Initialise(UCarThruster* FrontLeftThrusterToSet, UCa
 
 void UCarMovementComponent::IntendMoveForward(float Throw)
 {
-	CurrentForwardThrow = Throw;
-
 	if (!FrontLeftThruster || !FrontRightThruster || !RearLeftThruster || !RearRightThruster) { return; }
 
 	FrontLeftThruster->SetThrottle(Throw);

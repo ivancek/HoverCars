@@ -44,9 +44,7 @@ private:
 
 	UPrimitiveComponent* CarRoot = nullptr;
 
-	float CurrentForwardThrow = 0;
-
 	// Amount of stabilizing force (0...1)
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float SidewaysStabilizeAmount = 1;
+	float SidewaysStabilizeAmount = 0.025f;
 };

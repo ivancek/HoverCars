@@ -51,13 +51,6 @@ void EmptyLinkFunctionForGeneratedCodeCarThruster() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ThrustPower = { UE4CodeGen_Private::EPropertyClass::Float, "ThrustPower", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UCarThruster, ThrustPower), METADATA_PARAMS(NewProp_ThrustPower_MetaData, ARRAY_COUNT(NewProp_ThrustPower_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HoverPower_MetaData[] = {
-				{ "Category", "Setup" },
-				{ "ModuleRelativePath", "Car/CarThruster.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HoverPower = { UE4CodeGen_Private::EPropertyClass::Float, "HoverPower", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UCarThruster, HoverPower), METADATA_PARAMS(NewProp_HoverPower_MetaData, ARRAY_COUNT(NewProp_HoverPower_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HoverDistance_MetaData[] = {
 				{ "Category", "Setup" },
 				{ "ModuleRelativePath", "Car/CarThruster.h" },
@@ -66,7 +59,6 @@ void EmptyLinkFunctionForGeneratedCodeCarThruster() {}
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HoverDistance = { UE4CodeGen_Private::EPropertyClass::Float, "HoverDistance", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UCarThruster, HoverDistance), METADATA_PARAMS(NewProp_HoverDistance_MetaData, ARRAY_COUNT(NewProp_HoverDistance_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ThrustPower,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HoverPower,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HoverDistance,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -87,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeCarThruster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCarThruster, 851446566);
+	IMPLEMENT_CLASS(UCarThruster, 1367784276);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UCarThruster(Z_Construct_UClass_UCarThruster, &UCarThruster::StaticClass, TEXT("/Script/HoverCars"), TEXT("UCarThruster"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UCarThruster);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

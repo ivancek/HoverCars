@@ -12,12 +12,6 @@ void UCarThruster::BeginPlay()
 
 void UCarThruster::SetThrottle(float Throw)
 {
-	// We want to be able to steer when not grounded, but not fully.
-	/*if (!isGrounded)
-	{ 
-		Throw = Throw / 4; 
-	}*/
-
 	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 
 	auto ForceApplied = GetForwardVector() * Throw * ThrustPower;
@@ -28,8 +22,6 @@ void UCarThruster::SetThrottle(float Throw)
 
 void UCarThruster::Hover()
 {
-	isGrounded = false;
-
 	FHitResult HitResult;
 	auto CompLocation = GetComponentLocation();
 	auto UpNormal = GetUpVector().GetSafeNormal();
@@ -37,8 +29,6 @@ void UCarThruster::Hover()
 
 	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
 	{
-		isGrounded = true;
-
 		/// Hover force
 		auto ImpactNormal = HitResult.ImpactNormal;
 		auto Distance = (HitResult.Location - CompLocation).Size();
@@ -54,7 +44,7 @@ void UCarThruster::Hover()
 
 		CarRoot->AddForceAtLocation(FinalForce + CorrectionForce, CompLocation);
 
-		UE_LOG(LogTemp, Warning, TEXT("Final Force: %s"), *FinalForce.ToString())
+		/*UE_LOG(LogTemp, Warning, TEXT("Final Force: %s"), *FinalForce.ToString())*/
 	}
 
 }

@@ -2,6 +2,7 @@
 
 #include "CarMovementComponent.h"
 #include "CarThruster.h"
+#include "Engine/World.h"
 
 void UCarMovementComponent::BeginPlay()
 {
@@ -13,6 +14,8 @@ void UCarMovementComponent::BeginPlay()
 void UCarMovementComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	if (!IsGrounded()) { return; }
 
 	Hover();
 	Stabilize(DeltaTime);
@@ -32,9 +35,27 @@ void UCarMovementComponent::Initialise(UCarThruster* FrontLeftThrusterToSet, UCa
 	RearRightThruster = RearRightThrusterToSet;
 }
 
+bool UCarMovementComponent::IsGrounded()
+{
+	FHitResult HitResult;
+	auto CompLocation = CarRoot->GetComponentLocation();
+	auto UpNormal = CarRoot->GetUpVector().GetSafeNormal();
+	auto EndLocation = CompLocation - (UpNormal * GroundedDistance);
+
+	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
+	{
+		return true;
+	}
+
+	return false;
+}
+
 void UCarMovementComponent::IntendMoveForward(float Throw)
 {
 	if (!FrontLeftThruster || !FrontRightThruster || !RearLeftThruster || !RearRightThruster) { return; }
+
+	// No throttle when not grounded.
+	if (!IsGrounded()) { return; }
 
 	FrontLeftThruster->SetThrottle(Throw);
 	FrontRightThruster->SetThrottle(Throw);
@@ -45,10 +66,10 @@ void UCarMovementComponent::IntendMoveForward(float Throw)
 
 void UCarMovementComponent::IntendTurn(float Throw)
 {
-	
 	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity());
 
-	/*UE_LOG(LogTemp, Warning, TEXT("ForwardSpeed: %f"), ForwardSpeed);*/
+	// Steer 4 times less when not grounded.
+	if (!IsGrounded()) { Throw /= 4; }
 
 	// When going backwards, reverse turn throw so the car behaves as if on wheels.
 	if (ForwardSpeed < 0)

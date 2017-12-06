@@ -160,6 +160,13 @@ void EmptyLinkFunctionForGeneratedCodeCarMovementComponent() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GroundedDistance_MetaData[] = {
+				{ "Category", "Setup" },
+				{ "ModuleRelativePath", "Car/CarMovementComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_GroundedDistance = { UE4CodeGen_Private::EPropertyClass::Float, "GroundedDistance", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UCarMovementComponent, GroundedDistance), METADATA_PARAMS(NewProp_GroundedDistance_MetaData, ARRAY_COUNT(NewProp_GroundedDistance_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SidewaysStabilizeAmount_MetaData[] = {
 				{ "Category", "Setup" },
 				{ "ClampMax", "1.0" },
@@ -172,6 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeCarMovementComponent() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SidewaysStabilizeAmount = { UE4CodeGen_Private::EPropertyClass::Float, "SidewaysStabilizeAmount", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000010001, 1, nullptr, STRUCT_OFFSET(UCarMovementComponent, SidewaysStabilizeAmount), METADATA_PARAMS(NewProp_SidewaysStabilizeAmount_MetaData, ARRAY_COUNT(NewProp_SidewaysStabilizeAmount_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_GroundedDistance,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SidewaysStabilizeAmount,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -192,7 +200,7 @@ void EmptyLinkFunctionForGeneratedCodeCarMovementComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCarMovementComponent, 1926738096);
+	IMPLEMENT_CLASS(UCarMovementComponent, 412813835);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UCarMovementComponent(Z_Construct_UClass_UCarMovementComponent, &UCarMovementComponent::StaticClass, TEXT("/Script/HoverCars"), TEXT("UCarMovementComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UCarMovementComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

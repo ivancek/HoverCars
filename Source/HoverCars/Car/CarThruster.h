@@ -29,5 +29,5 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float ThrustPower = 500000.0f;
 
-	bool isGrounded = false;
+	
 };

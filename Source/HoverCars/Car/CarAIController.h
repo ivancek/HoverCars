@@ -19,12 +19,16 @@ class HOVERCARS_API ACarAIController : public AAIController
 public:
 	void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
-
-private:
-	void MoveToTarget();
-
-	UCarMovementComponent* MovementComponent = nullptr;
 	
-	float AcceptanceRadius = 3;
+private:
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetTargets(TArray<AActor*> TargetsToSet);
+	
+	void MoveToTarget(AActor* Target);
+
+	TArray<AActor*> Targets;
+	UCarMovementComponent* MovementComponent = nullptr;
+
+	float AcceptanceRadius = 300;
 	
 };

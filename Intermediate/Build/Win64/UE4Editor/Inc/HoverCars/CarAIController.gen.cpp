@@ -17,9 +17,42 @@ void EmptyLinkFunctionForGeneratedCodeCarAIController() {}
 	HOVERCARS_API UClass* Z_Construct_UClass_ACarAIController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_HoverCars();
+	HOVERCARS_API UFunction* Z_Construct_UFunction_ACarAIController_SetTargets();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ACarAIController::StaticRegisterNativesACarAIController()
 	{
+		UClass* Class = ACarAIController::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "SetTargets", (Native)&ACarAIController::execSetTargets },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ACarAIController_SetTargets()
+	{
+		struct CarAIController_eventSetTargets_Parms
+		{
+			TArray<AActor*> TargetsToSet;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_TargetsToSet = { UE4CodeGen_Private::EPropertyClass::Array, "TargetsToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(CarAIController_eventSetTargets_Parms, TargetsToSet), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TargetsToSet_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "TargetsToSet", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TargetsToSet,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TargetsToSet_Inner,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "Input" },
+				{ "ModuleRelativePath", "Car/CarAIController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ACarAIController, "SetTargets", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, sizeof(CarAIController_eventSetTargets_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ACarAIController_NoRegister()
 	{
@@ -33,6 +66,9 @@ void EmptyLinkFunctionForGeneratedCodeCarAIController() {}
 			static UObject* (*const DependentSingletons[])() = {
 				(UObject* (*)())Z_Construct_UClass_AAIController,
 				(UObject* (*)())Z_Construct_UPackage__Script_HoverCars,
+			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ACarAIController_SetTargets, "SetTargets" }, // 430263572
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -49,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeCarAIController() {}
 				&ACarAIController::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900280u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				nullptr, 0,
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -60,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeCarAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACarAIController, 3813050266);
+	IMPLEMENT_CLASS(ACarAIController, 2986332644);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACarAIController(Z_Construct_UClass_ACarAIController, &ACarAIController::StaticClass, TEXT("/Script/HoverCars"), TEXT("ACarAIController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACarAIController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

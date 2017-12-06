@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeHoverCars_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/HoverCars",
 				PKG_CompiledIn | 0x00000000,
-				0xB784FF35,
-				0xDC5112BA,
+				0xD80FAA5F,
+				0xD5970D83,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

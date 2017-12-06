@@ -135,4 +135,5 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 
 	auto TurnThrow = FVector::CrossProduct(ForwardDirection, ForwardIntention);
 	IntendTurn(TurnThrow.Z);
+
 }

@@ -4,12 +4,15 @@
 #include "CarMovementComponent.h"
 #include "GameFramework/Pawn.h"
 #include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 
 void ACarAIController::BeginPlay()
 {
 	Super::BeginPlay();
 
 	MovementComponent = GetPawn()->FindComponentByClass<UCarMovementComponent>();
+	
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), FName("Checkpoint"), OUT Targets);
 
 	if (!ensure(MovementComponent))
 	{
@@ -22,15 +25,18 @@ void ACarAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	MoveToTarget();
+	if (Targets.Num() < 0) { return; }
+	
+	MoveToTarget(Targets[0]);
 }
 
-void ACarAIController::MoveToTarget()
+void ACarAIController::SetTargets(TArray<AActor*> TargetsToSet)
 {
-	auto Target = GetWorld()->GetFirstPlayerController()->GetPawn();
+	Targets = TargetsToSet;
+}
 
-	if (!Target) { return; }
-
+void ACarAIController::MoveToTarget(AActor* Target)
+{
 	MoveToActor(Target, AcceptanceRadius);
 }
 

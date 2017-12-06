@@ -8,13 +8,36 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef HOVERCARS_CarAIController_generated_h
 #error "CarAIController.generated.h already included, missing '#pragma once' in CarAIController.h"
 #endif
 #define HOVERCARS_CarAIController_generated_h
 
-#define HoverCars_Source_HoverCars_Car_CarAIController_h_17_RPC_WRAPPERS
-#define HoverCars_Source_HoverCars_Car_CarAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define HoverCars_Source_HoverCars_Car_CarAIController_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTargets) \
+	{ \
+		P_GET_TARRAY(AActor*,Z_Param_TargetsToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTargets(Z_Param_TargetsToSet); \
+		P_NATIVE_END; \
+	}
+
+
+#define HoverCars_Source_HoverCars_Car_CarAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTargets) \
+	{ \
+		P_GET_TARRAY(AActor*,Z_Param_TargetsToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTargets(Z_Param_TargetsToSet); \
+		P_NATIVE_END; \
+	}
+
+
 #define HoverCars_Source_HoverCars_Car_CarAIController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACarAIController(); \

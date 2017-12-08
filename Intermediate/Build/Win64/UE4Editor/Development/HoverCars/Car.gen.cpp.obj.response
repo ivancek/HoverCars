@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I D:\PROJECTS\Unreal\HoverCars\Source
-/I D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Inc\HoverCars
-/I D:\PROJECTS\Unreal\HoverCars\Source\HoverCars
+/I D:\Hover_Cars_Project\HoverCars\Source
+/I D:\Hover_Cars_Project\HoverCars\Intermediate\Build\Win64\UE4Editor\Inc\HoverCars
+/I D:\Hover_Cars_Project\HoverCars\Source\HoverCars
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Inc\HoverCars\Car.gen.cpp"
-/FI"D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\HoverCars\Definitions.HoverCars.h"
-/Fo"D:\PROJECTS\Unreal\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\HoverCars\Car.gen.cpp.obj"
+"D:\Hover_Cars_Project\HoverCars\Intermediate\Build\Win64\UE4Editor\Inc\HoverCars\Car.gen.cpp"
+/FI"D:\Hover_Cars_Project\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\HoverCars\Definitions.HoverCars.h"
+/Fo"D:\Hover_Cars_Project\HoverCars\Intermediate\Build\Win64\UE4Editor\Development\HoverCars\Car.gen.cpp.obj"
 /TP
 /GR-
 /W4

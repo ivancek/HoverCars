@@ -34,8 +34,6 @@ public:
 private:
 	void Hover();
 	void Stabilize(float DeltaTime);
-	void IntendTurnRight(float Throw);
-	void IntendTurnLeft(float Throw);
 	
 	bool IsGrounded();
 	
@@ -52,4 +50,7 @@ private:
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float GroundedDistance = 200;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float TurnForce = 50000;
 };

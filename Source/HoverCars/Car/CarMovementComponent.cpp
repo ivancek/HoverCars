@@ -44,9 +44,11 @@ bool UCarMovementComponent::IsGrounded()
 
 	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Grounded!"));
 		return true;
 	}
 
+	UE_LOG(LogTemp, Warning, TEXT("not Grounded!"));
 	return false;
 }
 
@@ -69,7 +71,7 @@ void UCarMovementComponent::IntendTurn(float Throw)
 	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity());
 
 	// Steer 4 times less when not grounded.
-	if (!IsGrounded()) { Throw /= 4; }
+	if (!IsGrounded()) { return; }
 
 	// When going backwards, reverse turn throw so the car behaves as if on wheels.
 	if (ForwardSpeed < 0)
@@ -77,30 +79,7 @@ void UCarMovementComponent::IntendTurn(float Throw)
 		Throw = -Throw;
 	}
 
-	if (Throw > 0)
-	{
-		IntendTurnRight(Throw);
-	}
-	else
-	{
-		IntendTurnLeft(-Throw);
-	}
-}
-
-// Expects a positive input to properly turn.
-void UCarMovementComponent::IntendTurnRight(float Throw)
-{
-	if (!FrontRightThruster || !RearLeftThruster) { return; }
-
-	RearLeftThruster->SetThrottle(Throw);
-}
-
-// Expects a positive input to properly turn.
-void UCarMovementComponent::IntendTurnLeft(float Throw)
-{
-	if (!FrontLeftThruster || !RearRightThruster) { return; }
-
-	RearRightThruster->SetThrottle(Throw);
+	CarRoot->AddTorque(FVector(0, 0, Throw) * TurnForce);
 }
 
 // Applies hover force to keep the vehicle above ground.
@@ -118,6 +97,8 @@ void UCarMovementComponent::Hover()
 // Applies sideways force to keep the vehicle from sliding.
 void UCarMovementComponent::Stabilize(float DeltaTime)
 {
+	if (!IsGrounded()) { return; }
+
 	auto SlippageSpeed = FVector::DotProduct(CarRoot->GetRightVector(), CarRoot->GetComponentVelocity());
 	auto CorrectionAcceleration = -SlippageSpeed / DeltaTime * CarRoot->GetRightVector();
 	auto CorrectionForce = CarRoot->GetMass() * CorrectionAcceleration;
@@ -127,6 +108,8 @@ void UCarMovementComponent::Stabilize(float DeltaTime)
 
 void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool bForceMaxSpeed)
 {
+	if (!IsGrounded()) { return; }
+
 	auto ForwardIntention = MoveVelocity.GetSafeNormal();
 	auto ForwardDirection = GetOwner()->GetActorForwardVector().GetSafeNormal();
 

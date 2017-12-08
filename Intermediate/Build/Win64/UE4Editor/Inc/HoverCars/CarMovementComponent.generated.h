@@ -128,7 +128,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCarMovementComponent); \
 
 #define HoverCars_Source_HoverCars_Car_CarMovementComponent_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SidewaysStabilizeAmount() { return STRUCT_OFFSET(UCarMovementComponent, SidewaysStabilizeAmount); } \
-	FORCEINLINE static uint32 __PPO__GroundedDistance() { return STRUCT_OFFSET(UCarMovementComponent, GroundedDistance); }
+	FORCEINLINE static uint32 __PPO__GroundedDistance() { return STRUCT_OFFSET(UCarMovementComponent, GroundedDistance); } \
+	FORCEINLINE static uint32 __PPO__TurnForce() { return STRUCT_OFFSET(UCarMovementComponent, TurnForce); }
 
 
 #define HoverCars_Source_HoverCars_Car_CarMovementComponent_h_13_PROLOG

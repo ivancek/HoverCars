@@ -72,20 +72,21 @@ void UCarMovementComponent::IntendTurn(float Throw)
 {
 	if (IsGrounded())
 	{
-		/// Lower damping when trying to turn.
-		if (Throw != 0)
-		{
-			CarRoot->SetAngularDamping(0.5f);
-		}
-		else
-		{
-			CarRoot->SetAngularDamping(3);
-		}
+		CarRoot->SetAngularDamping(MaxAngularDamp); // Need good damping for steering
 	}
 	else
 	{
 		Throw *= AirTurnAmount;
-		CarRoot->SetAngularDamping(0);
+		CarRoot->SetAngularDamping(0); // No damping when in air. Allows for spins.
+	}
+
+	/// Break Yaw angular velocity when trying to steer the other way.
+	if (Throw != 0 && PreviousThrow != Throw)
+	{
+		PreviousThrow = Throw;
+		
+		auto AngularVeolocity = CarRoot->GetPhysicsAngularVelocityInDegrees();
+		CarRoot->SetPhysicsAngularVelocityInDegrees(FVector(AngularVeolocity.X, AngularVeolocity.Y, AngularVeolocity.Z * YawAngularDiscardAmount));
 	}
 
 	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);

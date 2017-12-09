@@ -41,9 +41,5 @@ void UCarThruster::Hover(float HoverDistance)
 		auto CorrectionForce = CarRoot->GetMass() * CorrectionAcceleration / 2;
 
 		CarRoot->AddForceAtLocation(FinalForce + CorrectionForce, CompLocation);
-
-		//CarRoot->SetAngularDamping(3);
-	
-		/*UE_LOG(LogTemp, Warning, TEXT("Final Force: %s"), *FinalForce.ToString())*/
 	}
 }

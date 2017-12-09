@@ -44,11 +44,11 @@ bool UCarMovementComponent::IsGrounded()
 
 	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Grounded!"));
+		//UE_LOG(LogTemp, Warning, TEXT("Grounded!"));
 		return true;
 	}
 
-	UE_LOG(LogTemp, Warning, TEXT("not Grounded!"));
+	//UE_LOG(LogTemp, Warning, TEXT("not Grounded!"));
 	return false;
 }
 
@@ -70,7 +70,23 @@ void UCarMovementComponent::IntendMoveForward(float Throw)
 
 void UCarMovementComponent::IntendTurn(float Throw)
 {
-	if (!IsGrounded()) { Throw *= AirTurnAmount; }
+	if (IsGrounded())
+	{
+		/// Lower damping when trying to turn.
+		if (Throw != 0)
+		{
+			CarRoot->SetAngularDamping(0.5f);
+		}
+		else
+		{
+			CarRoot->SetAngularDamping(3);
+		}
+	}
+	else
+	{
+		Throw *= AirTurnAmount;
+		CarRoot->SetAngularDamping(0);
+	}
 
 	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);
 }
@@ -97,6 +113,13 @@ void UCarMovementComponent::Stabilize(float DeltaTime)
 	auto CorrectionForce = CarRoot->GetMass() * CorrectionAcceleration;
 
 	CarRoot->AddForce(CorrectionForce * SidewaysStabilizeAmount);
+
+	/// Damp angular velocity on Y and X.
+	auto AngularVelocity = CarRoot->GetPhysicsAngularVelocityInDegrees();
+	if (FMath::Abs(AngularVelocity.X) > 10 || FMath::Abs(AngularVelocity.Y) > 10)
+	{
+		CarRoot->SetAngularDamping(3);
+	}
 }
 
 void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool bForceMaxSpeed)

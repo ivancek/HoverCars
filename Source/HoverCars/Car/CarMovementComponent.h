@@ -47,10 +47,20 @@ private:
 	// Amount of stabilizing force (0...1)
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
 	float SidewaysStabilizeAmount = 0.025f;
+
+	// Amount of turn ability in air force (0...1)
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float AirTurnAmount = 0.5f;
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float GroundedDistance = 200;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float TurnForce = 50000;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float HoverDistance = 200.0f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float ThrustPower = 1000.0f;
 };

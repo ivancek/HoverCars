@@ -18,16 +18,8 @@ public:
 	virtual void BeginPlay() override;
 
 	void SetThrottle(float Throw);
-	void Hover();
+	void Hover(float HoverDistance);
 	
 private:
 	UPrimitiveComponent* CarRoot = nullptr;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float HoverDistance = 100.0f;
-
-	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float ThrustPower = 500000.0f;
-
-	
 };

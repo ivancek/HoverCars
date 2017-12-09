@@ -12,15 +12,13 @@ void UCarThruster::BeginPlay()
 
 void UCarThruster::SetThrottle(float Throw)
 {
-	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
-
-	auto ForceApplied = GetForwardVector() * Throw * ThrustPower;
+	auto ForceApplied = GetForwardVector() * Throw;
 	auto ForceLocation = GetComponentLocation();
 	
 	CarRoot->AddForceAtLocation(ForceApplied, ForceLocation);
 }
 
-void UCarThruster::Hover()
+void UCarThruster::Hover(float HoverDistance)
 {
 	FHitResult HitResult;
 	auto CompLocation = GetComponentLocation();

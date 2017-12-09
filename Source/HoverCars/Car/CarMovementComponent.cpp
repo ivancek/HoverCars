@@ -59,27 +59,20 @@ void UCarMovementComponent::IntendMoveForward(float Throw)
 	// No throttle when not grounded.
 	if (!IsGrounded()) { return; }
 
-	FrontLeftThruster->SetThrottle(Throw);
-	FrontRightThruster->SetThrottle(Throw);
+	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 
-	RearLeftThruster->SetThrottle(Throw);
-	RearRightThruster->SetThrottle(Throw);
+	FrontLeftThruster->SetThrottle(Throw * ThrustPower);
+	FrontRightThruster->SetThrottle(Throw * ThrustPower);
+
+	RearLeftThruster->SetThrottle(Throw * ThrustPower);
+	RearRightThruster->SetThrottle(Throw * ThrustPower);
 }
 
 void UCarMovementComponent::IntendTurn(float Throw)
 {
-	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity());
+	if (!IsGrounded()) { Throw *= AirTurnAmount; }
 
-	// Steer 4 times less when not grounded.
-	if (!IsGrounded()) { return; }
-
-	// When going backwards, reverse turn throw so the car behaves as if on wheels.
-	if (ForwardSpeed < 0)
-	{
-		Throw = -Throw;
-	}
-
-	CarRoot->AddTorque(FVector(0, 0, Throw) * TurnForce);
+	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);
 }
 
 // Applies hover force to keep the vehicle above ground.
@@ -87,11 +80,11 @@ void UCarMovementComponent::Hover()
 {
 	if (!FrontLeftThruster || !FrontRightThruster || !RearRightThruster || !RearLeftThruster) { return; }
 
-	FrontRightThruster->Hover();
-	FrontLeftThruster->Hover();
+	FrontRightThruster->Hover(HoverDistance);
+	FrontLeftThruster->Hover(HoverDistance);
 	
-	RearRightThruster->Hover();
-	RearLeftThruster->Hover();
+	RearRightThruster->Hover(HoverDistance);
+	RearLeftThruster->Hover(HoverDistance);
 }
 
 // Applies sideways force to keep the vehicle from sliding.

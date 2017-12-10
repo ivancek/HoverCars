@@ -22,12 +22,17 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	void Initialise(UCarThruster* FrontLeftThrusterToSet, UCarThruster* FrontRightThrusterToSet, UCarThruster* RearLeftThrusterToSet, UCarThruster* RearRightThrusterToSet);
 
-	
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void IntendMoveForward(float Throw);
 
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void IntendTurn(float Throw);
+
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void IntendFlipLeft();
+
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void IntendFlipRight();
 
 	virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
 
@@ -36,7 +41,8 @@ private:
 	void Stabilize(float DeltaTime);
 	
 	bool IsGrounded();
-	
+	bool IsUpright();
+		
 	UCarThruster* FrontLeftThruster = nullptr;
 	UCarThruster* FrontRightThruster = nullptr;
 	UCarThruster* RearLeftThruster = nullptr;
@@ -52,9 +58,13 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
 	float AirTurnAmount = 0.25f;
 
-	// Amount of YAW momentum we discard when attempting to steer the opposite way. This is to allow for faster counter steer.
+	// Amount of YAW momentum we keep when attempting to steer the opposite way. This is to allow for faster counter steer.
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float YawAngularDiscardAmount = 0.75f;
+	float YawKeepPercent = 0.75f;
+
+	// Amount of flip force we apply when airborn and upright 
+	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+	float AirFlipForcePercent = 0.1f;
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float GroundedDistance = 200;

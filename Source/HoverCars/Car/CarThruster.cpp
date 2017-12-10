@@ -43,3 +43,11 @@ void UCarThruster::Hover(float HoverDistance)
 		CarRoot->AddForceAtLocation(FinalForce + CorrectionForce, CompLocation);
 	}
 }
+
+void UCarThruster::FlipBurst(float Force)
+{
+	auto UpNormal = GetUpVector().GetSafeNormal();
+	auto CompLocation = GetComponentLocation();
+
+	CarRoot->AddForceAtLocation(Force * -UpNormal, CompLocation);
+}

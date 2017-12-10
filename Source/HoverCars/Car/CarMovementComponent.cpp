@@ -35,6 +35,13 @@ void UCarMovementComponent::Initialise(UCarThruster* FrontLeftThrusterToSet, UCa
 	RearRightThruster = RearRightThrusterToSet;
 }
 
+// Is upright as long as UpVector().Z is larger than 1.
+bool UCarMovementComponent::IsUpright()
+{
+	return CarRoot->GetUpVector().GetSafeNormal().Z > 0.5f;
+}
+
+// The car is grounded when his line trace hits the floor.
 bool UCarMovementComponent::IsGrounded()
 {
 	FHitResult HitResult;
@@ -42,14 +49,7 @@ bool UCarMovementComponent::IsGrounded()
 	auto UpNormal = CarRoot->GetUpVector().GetSafeNormal();
 	auto EndLocation = CompLocation - (UpNormal * GroundedDistance);
 
-	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
-	{
-		//UE_LOG(LogTemp, Warning, TEXT("Grounded!"));
-		return true;
-	}
-
-	//UE_LOG(LogTemp, Warning, TEXT("not Grounded!"));
-	return false;
+	return GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility);
 }
 
 void UCarMovementComponent::IntendMoveForward(float Throw)
@@ -86,10 +86,45 @@ void UCarMovementComponent::IntendTurn(float Throw)
 		PreviousThrow = Throw;
 		
 		auto AngularVeolocity = CarRoot->GetPhysicsAngularVelocityInDegrees();
-		CarRoot->SetPhysicsAngularVelocityInDegrees(FVector(AngularVeolocity.X, AngularVeolocity.Y, AngularVeolocity.Z * YawAngularDiscardAmount));
+		CarRoot->SetPhysicsAngularVelocityInDegrees(FVector(AngularVeolocity.X, AngularVeolocity.Y, AngularVeolocity.Z * YawKeepPercent));
 	}
 
 	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);
+}
+
+void UCarMovementComponent::IntendFlipLeft()
+{
+	if (IsGrounded()) { return; } // Don't flip when grounded
+
+	if (IsUpright())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
+		FrontLeftThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+		RearLeftThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+	}
+	else
+	{
+		FrontLeftThruster->FlipBurst(TurnForce);
+		RearLeftThruster->FlipBurst(TurnForce);
+	}
+}
+
+
+void UCarMovementComponent::IntendFlipRight()
+{
+	if (IsGrounded()) { return; } // Don't flip when grounded
+
+	if (IsUpright())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
+		FrontRightThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+		RearRightThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+	}
+	else
+	{
+		FrontRightThruster->FlipBurst(TurnForce); // full force while in air.
+		RearRightThruster->FlipBurst(TurnForce);
+	}
 }
 
 // Applies hover force to keep the vehicle above ground.

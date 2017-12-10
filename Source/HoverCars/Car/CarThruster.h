@@ -19,6 +19,7 @@ public:
 
 	void SetThrottle(float Throw);
 	void Hover(float HoverDistance);
+	void FlipBurst(float Force);
 	
 private:
 	UPrimitiveComponent* CarRoot = nullptr;

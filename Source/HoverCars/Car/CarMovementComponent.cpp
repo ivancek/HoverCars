@@ -38,6 +38,8 @@ void UCarMovementComponent::Initialise(UCarThruster* FrontLeftThrusterToSet, UCa
 // Is upright as long as UpVector().Z is larger than 1.
 bool UCarMovementComponent::IsUpright()
 {
+	if (!CarRoot) { return true; }
+
 	return CarRoot->GetUpVector().GetSafeNormal().Z > 0.5f;
 }
 

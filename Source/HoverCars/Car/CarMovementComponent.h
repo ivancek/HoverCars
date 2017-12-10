@@ -41,6 +41,8 @@ private:
 	void Stabilize(float DeltaTime);
 	
 	bool IsGrounded();
+	
+	UFUNCTION(BlueprintCallable, Category = "Input")
 	bool IsUpright();
 		
 	UCarThruster* FrontLeftThruster = nullptr;

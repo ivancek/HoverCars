@@ -20,6 +20,10 @@ public:
 	void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
+	UCarMovementComponent* MovementComponent = nullptr;
+
 private:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetTarget(AActor* TargetToSet);
@@ -27,8 +31,7 @@ private:
 	void MoveToTarget(AActor* Target);
 
 	AActor* Target;
-	UCarMovementComponent* MovementComponent = nullptr;
-
+	
 	float AcceptanceRadius = 300;
 	
 };

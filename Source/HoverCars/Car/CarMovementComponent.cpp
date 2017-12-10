@@ -99,13 +99,13 @@ void UCarMovementComponent::IntendFlipLeft()
 	if (IsUpright())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
-		FrontLeftThruster->FlipBurst(TurnForce * AirFlipForcePercent);
-		RearLeftThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+		FrontLeftThruster->FlipBurst(FlipForce * AirFlipForcePercent);
+		RearLeftThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 	}
 	else
 	{
-		FrontLeftThruster->FlipBurst(TurnForce);
-		RearLeftThruster->FlipBurst(TurnForce);
+		FrontLeftThruster->FlipBurst(FlipForce);
+		RearLeftThruster->FlipBurst(FlipForce);
 	}
 }
 
@@ -117,13 +117,13 @@ void UCarMovementComponent::IntendFlipRight()
 	if (IsUpright())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
-		FrontRightThruster->FlipBurst(TurnForce * AirFlipForcePercent);
-		RearRightThruster->FlipBurst(TurnForce * AirFlipForcePercent);
+		FrontRightThruster->FlipBurst(FlipForce * AirFlipForcePercent);
+		RearRightThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 	}
 	else
 	{
-		FrontRightThruster->FlipBurst(TurnForce); // full force while in air.
-		RearRightThruster->FlipBurst(TurnForce);
+		FrontRightThruster->FlipBurst(FlipForce); // full force while in air.
+		RearRightThruster->FlipBurst(FlipForce);
 	}
 }
 

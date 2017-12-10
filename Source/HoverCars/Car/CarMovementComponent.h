@@ -52,7 +52,7 @@ private:
 
 	// Amount of stabilizing force (0...1)
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float SidewaysStabilizeAmount = 0.025f;
+	float SidewaysStabilizeAmount = 0.04f;
 
 	// Amount of turn ability in air force (0...1)
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
@@ -60,7 +60,7 @@ private:
 
 	// Amount of YAW momentum we keep when attempting to steer the opposite way. This is to allow for faster counter steer.
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
-	float YawKeepPercent = 0.75f;
+	float YawKeepPercent = 0.5f;
 
 	// Amount of flip force we apply when airborn and upright 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (ClampMin = "0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
@@ -70,16 +70,19 @@ private:
 	float GroundedDistance = 200;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float TurnForce = 60000;
+	float TurnForce = 120000;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float HoverDistance = 200.0f;
+	float FlipForce = 60000;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float ThrustPower = 1000.0f;
+	float HoverDistance = 200;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float MaxAngularDamp = 2;
+	float ThrustPower = 1000;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	float MaxAngularDamp = 3;
 
 	float PreviousThrow = 0;
 };

@@ -12,8 +12,6 @@ void ACarAIController::BeginPlay()
 
 	MovementComponent = GetPawn()->FindComponentByClass<UCarMovementComponent>();
 	
-	UGameplayStatics::GetAllActorsWithTag(GetWorld(), FName("Checkpoint"), OUT Targets);
-
 	if (!ensure(MovementComponent))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Cannot find movement component"));
@@ -25,14 +23,14 @@ void ACarAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (Targets.Num() < 0) { return; }
-	
-	MoveToTarget(Targets[0]);
+	if (!Target) { return; }
+
+	MoveToTarget(Target);
 }
 
-void ACarAIController::SetTargets(TArray<AActor*> TargetsToSet)
+void ACarAIController::SetTarget(AActor* TargetToSet)
 {
-	Targets = TargetsToSet;
+	Target = TargetToSet;
 }
 
 void ACarAIController::MoveToTarget(AActor* Target)

@@ -22,11 +22,11 @@ public:
 	
 private:
 	UFUNCTION(BlueprintCallable, Category = "Input")
-	void SetTargets(TArray<AActor*> TargetsToSet);
+	void SetTarget(AActor* TargetToSet);
 	
 	void MoveToTarget(AActor* Target);
 
-	TArray<AActor*> Targets;
+	AActor* Target;
 	UCarMovementComponent* MovementComponent = nullptr;
 
 	float AcceptanceRadius = 300;

@@ -80,8 +80,11 @@ void UCarMovementComponent::IntendTurn(float Throw)
 		CarRoot->SetAngularDamping(0); // No damping when in air. Allows for spins.
 	}
 
+	auto PreviousSign = FMath::Sign(PreviousThrow);
+	auto CurrentSign = FMath::Sign(Throw);
+
 	/// Break Yaw angular velocity when trying to steer the other way.
-	if (Throw != 0 && PreviousThrow != Throw)
+	if (Throw != 0 && PreviousSign != CurrentSign)
 	{
 		PreviousThrow = Throw;
 		
@@ -89,7 +92,7 @@ void UCarMovementComponent::IntendTurn(float Throw)
 		CarRoot->SetPhysicsAngularVelocityInDegrees(FVector(AngularVeolocity.X, AngularVeolocity.Y, AngularVeolocity.Z * YawKeepPercent));
 	}
 
-	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);
+	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce * GetWorld()->GetDeltaSeconds());
 }
 
 void UCarMovementComponent::IntendFlipLeft()
@@ -171,4 +174,5 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 	auto TurnThrow = FVector::CrossProduct(ForwardDirection, ForwardIntention);
 	IntendTurn(TurnThrow.Z);
 
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *TurnThrow.ToString());
 }

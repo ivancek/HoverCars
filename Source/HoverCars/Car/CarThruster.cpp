@@ -49,5 +49,5 @@ void UCarThruster::FlipBurst(float Force)
 	auto UpNormal = GetUpVector().GetSafeNormal();
 	auto CompLocation = GetComponentLocation();
 
-	CarRoot->AddForceAtLocation(Force * -UpNormal, CompLocation);
+	CarRoot->AddImpulseAtLocation(Force * -UpNormal, CompLocation);
 }

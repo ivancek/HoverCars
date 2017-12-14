@@ -131,7 +131,8 @@ void UCarMovementComponent::IntendFlipRight()
 	}
 	else
 	{
-		FrontRightThruster->FlipBurst(FlipForce); // full force while in air.
+		UE_LOG(LogTemp, Warning, TEXT("Grounded flip!"));
+		FrontRightThruster->FlipBurst(FlipForce); 
 		RearRightThruster->FlipBurst(FlipForce);
 	}
 }

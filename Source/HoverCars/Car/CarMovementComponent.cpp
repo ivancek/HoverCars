@@ -94,12 +94,14 @@ void UCarMovementComponent::IntendTurn(float Throw)
 		CarRoot->SetPhysicsAngularVelocityInDegrees(FVector(AngularVeolocity.X, AngularVeolocity.Y, AngularVeolocity.Z * YawKeepPercent));
 	}
 
-	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce * GetWorld()->GetDeltaSeconds());
+	CarRoot->AddTorqueInRadians(FVector(0, 0, Throw) * TurnForce);
 }
 
 void UCarMovementComponent::IntendFlipLeft()
 {
 	if (IsGrounded()) { return; } // Don't flip when grounded
+
+	auto DeltaTime = GetWorld()->GetDeltaSeconds();
 
 	if (IsUpright())
 	{
@@ -119,6 +121,8 @@ void UCarMovementComponent::IntendFlipRight()
 {
 	if (IsGrounded()) { return; } // Don't flip when grounded
 
+	auto DeltaTime = GetWorld()->GetDeltaSeconds();
+
 	if (IsUpright())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
@@ -127,7 +131,8 @@ void UCarMovementComponent::IntendFlipRight()
 	}
 	else
 	{
-		FrontRightThruster->FlipBurst(FlipForce); // full force while in air.
+		UE_LOG(LogTemp, Warning, TEXT("Grounded flip!"));
+		FrontRightThruster->FlipBurst(FlipForce); 
 		RearRightThruster->FlipBurst(FlipForce);
 	}
 }
@@ -165,8 +170,6 @@ void UCarMovementComponent::Stabilize(float DeltaTime)
 
 void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool bForceMaxSpeed)
 {
-	if (!IsGrounded()) { return; }
-
 	auto ForwardIntention = MoveVelocity.GetSafeNormal();
 	auto ForwardDirection = GetOwner()->GetActorForwardVector().GetSafeNormal();
 
@@ -175,6 +178,4 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 
 	auto TurnThrow = FVector::CrossProduct(ForwardDirection, ForwardIntention);
 	IntendTurn(TurnThrow.Z);
-
-	//UE_LOG(LogTemp, Warning, TEXT("%s"), *TurnThrow.ToString());
 }

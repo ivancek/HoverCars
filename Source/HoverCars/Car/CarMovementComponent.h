@@ -72,16 +72,16 @@ private:
 	float GroundedDistance = 200;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float TurnForce = 120000;
+	float TurnForce = 120000000;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float FlipForce = 60000;
+	float FlipForce = 50000000;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float HoverDistance = 200;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
-	float ThrustPower = 1000;
+	float ThrustPower = 1000000;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float MaxAngularDamp = 3;

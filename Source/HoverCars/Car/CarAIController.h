@@ -32,6 +32,7 @@ private:
 
 	AActor* Target;
 	
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float AcceptanceRadius = 300;
 	
 };

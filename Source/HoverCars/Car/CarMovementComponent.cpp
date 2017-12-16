@@ -77,7 +77,7 @@ void UCarMovementComponent::IntendTurn(float Throw)
 	auto Speed = CarRoot->GetComponentVelocity().Size();
 	UE_LOG(LogTemp, Warning, TEXT("%f :: %f"), ForwardSpeed, Speed);
 	
-	if (ForwardSpeed < -0.95f && Speed > 20)
+	if (ForwardSpeed < 0 && Speed > 20)
 	{
 		Throw = -Throw;
 	}

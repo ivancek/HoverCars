@@ -15,13 +15,15 @@ public:
 	// Sets default values for this pawn's properties
 	ACar();
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	
+	UPROPERTY(BlueprintReadWrite, Category = "Setup")
+	int LapsPassed = -1;
+	UPROPERTY(BlueprintReadWrite, Category = "Setup")
+	int CheckpointsPassed = 0;
 };

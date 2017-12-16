@@ -25,7 +25,7 @@ void UCarThruster::Hover(float HoverDistance)
 	auto UpNormal = GetUpVector().GetSafeNormal();
 	auto EndLocation = CompLocation - (UpNormal * HoverDistance);
 
-	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility))
+	if (GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_GameTraceChannel1))
 	{
 		/// Hover force
 		auto ImpactNormal = HitResult.ImpactNormal;

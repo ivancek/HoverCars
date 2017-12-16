@@ -75,13 +75,13 @@ void UCarMovementComponent::IntendTurn(float Throw)
 	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 
 	// When going backwards, reverse turn throw so the car behaves as if on wheels.
-	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity().GetSafeNormal());
+	/*auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity().GetSafeNormal());
 	auto Speed = CarRoot->GetComponentVelocity().Size();
 	
 	if (ForwardSpeed < 0 && Speed > 20)
 	{
 		Throw = -Throw;
-	}
+	}*/
 
 	if (IsGrounded())
 	{
@@ -185,16 +185,20 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 	auto ForwardDirection = GetOwner()->GetActorForwardVector().GetSafeNormal();
 
 	auto TurnThrow = FVector::CrossProduct(ForwardDirection, ForwardIntention);
-	IntendTurn(TurnThrow.Z);
+	
+	auto Sign = FMath::Sign(TurnThrow.Z); // Get the sign of current throw.
+
+	IntendTurn(Sign);
 
 	// When going backwards, reverse turn throw so the car behaves as if on wheels.
 	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity().GetSafeNormal());
 	auto Speed = CarRoot->GetComponentVelocity().Size();
 	auto ForwardThrow = FVector::DotProduct(ForwardDirection, ForwardIntention);
 	
-	if (FMath::Abs(TurnThrow.Z) > 0.3f && Speed > 10000)
+	// Attempt to brake.
+	if (FMath::Abs(TurnThrow.Z) > 0.3f && Speed > 8000)
 	{
-		IntendMoveForward(-0.5f);
+		IntendMoveForward(-1);
 	}
 	else
 	{

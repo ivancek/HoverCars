@@ -74,15 +74,6 @@ void UCarMovementComponent::IntendTurn(float Throw)
 {
 	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 
-	// When going backwards, reverse turn throw so the car behaves as if on wheels.
-	/*auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity().GetSafeNormal());
-	auto Speed = CarRoot->GetComponentVelocity().Size();
-	
-	if (ForwardSpeed < 0 && Speed > 20)
-	{
-		Throw = -Throw;
-	}*/
-
 	if (IsGrounded())
 	{
 		CarRoot->SetAngularDamping(MaxAngularDamp); // Need good damping for steering

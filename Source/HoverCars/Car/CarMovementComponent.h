@@ -34,6 +34,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void IntendFlipRight();
 
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	bool IsUpright();
+	
 	virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
 
 private:
@@ -42,8 +45,6 @@ private:
 	
 	bool IsGrounded();
 	
-	UFUNCTION(BlueprintCallable, Category = "Input")
-	bool IsUpright();
 		
 	UCarThruster* FrontLeftThruster = nullptr;
 	UCarThruster* FrontRightThruster = nullptr;

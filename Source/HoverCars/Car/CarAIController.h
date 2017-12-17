@@ -30,9 +30,12 @@ private:
 	
 	void MoveToTarget(AActor* Target);
 
+	void FlipIfNeeded();
+
 	AActor* Target;
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	float AcceptanceRadius = 300;
 	
+	FTimerHandle FlipTimer;
 };

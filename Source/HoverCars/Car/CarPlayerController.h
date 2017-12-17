@@ -15,5 +15,6 @@ class HOVERCARS_API ACarPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-
+public:
+	void CheckpointPassed();
 };

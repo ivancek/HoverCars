@@ -20,13 +20,14 @@ public:
 	void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetTarget(AActor* TargetToSet);
+
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
 	UCarMovementComponent* MovementComponent = nullptr;
 
 private:
-	UFUNCTION(BlueprintCallable, Category = "Input")
-	void SetTarget(AActor* TargetToSet);
 	
 	void MoveToTarget(AActor* Target);
 

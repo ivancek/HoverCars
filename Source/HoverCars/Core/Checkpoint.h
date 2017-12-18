@@ -7,6 +7,7 @@
 #include "Checkpoint.generated.h"
 
 class UBoxComponent;
+class ACar;
 
 UCLASS()
 class HOVERCARS_API ACheckpoint : public AActor
@@ -21,6 +22,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* Trigger = nullptr;
 
@@ -28,7 +30,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
-
+	
 	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
 	void WrongWay();
 
@@ -39,6 +41,5 @@ public:
 	ACheckpoint* NextCheckpoint = nullptr;
 
 private:
-	
 	
 };

@@ -18,4 +18,5 @@ class HOVERCARS_API AStartFinish : public ACheckpoint
 public:
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 	
+	
 };

@@ -28,7 +28,6 @@ void ACarAIController::Tick(float DeltaTime)
 
 	if (!Target || !GetPawn())
 	{
-		StopMovement();
 		GetWorldTimerManager().ClearTimer(FlipTimer);
 		return; 
 	}

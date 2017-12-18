@@ -29,6 +29,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
+	void WrongWay();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Setup")
+	void CheckpointPassed(bool IsPlayer);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
 	ACheckpoint* NextCheckpoint = nullptr;
 

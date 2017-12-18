@@ -49,24 +49,33 @@ void ACheckpoint::NotifyActorBeginOverlap(AActor * OtherActor)
 
 	if (auto Car = Cast<ACar>(OtherActor))
 	{
+		// First check if we're going wrong way
+		auto DotProduct = FVector::DotProduct(Car->GetVelocity(), GetActorForwardVector().GetSafeNormal());
+
+		if (DotProduct < 0)
+		{
+			WrongWay();
+		}
+		
 		/// Get the car's desired checkpoint. It should be this checkpoint, but only if it's not the VERY FIRST time we pass
 		auto DesiredCheckpoint = Cast<ACheckpoint>(Car->GetCurrentCheckpoint())->NextCheckpoint;
 		if (Car->GetCurrentLap() >= 0 && DesiredCheckpoint != this)
 		{
-			// TODO Make a blueprint implementable event (InvalidCheckpoint)
 			return;
 		}
-
-		// TODO Make a 'correct-direction' check.
 
 		/// This checkpoint becomes car's current checkpoint.
 		Car->SetCurrentCheckpoint(this);
 
 		/// Need to set AIControllers next checkpoint so it can feed the nav mesh.
 		auto Controller = Car->GetController();
+		bool IsPlayer = true;
 		if (auto AIController = Cast<ACarAIController>(Controller))
 		{
 			AIController->SetNextCheckpoint(NextCheckpoint);
+			IsPlayer = false;
 		}
+
+		CheckpointPassed(IsPlayer); 
 	}
 }

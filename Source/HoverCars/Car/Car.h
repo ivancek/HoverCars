@@ -18,6 +18,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	AActor* GetCurrentCheckpoint();
+	void SetCurrentCheckpoint(AActor* Checkpoint);
+
+	void IncrementLap();
+	int GetCurrentLap();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -26,4 +32,6 @@ protected:
 	int LapsPassed = -1;
 	UPROPERTY(BlueprintReadWrite, Category = "Setup")
 	int CheckpointsPassed = 0;
+	UPROPERTY(VisibleAnywhere, Category = "Setup")
+	AActor* CurrentCheckpoint = nullptr;
 };

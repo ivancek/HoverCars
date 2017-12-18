@@ -1,9 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "CarPlayerController.h"
-#include "GameFramework/Pawn.h"
+#include "Car/Car.h"
 
-void ACarPlayerController::CheckpointPassed()
+void ACarPlayerController::SetStartFinish(AActor * StartFinish)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Player controller, checkpoint passed."));
+	if (auto Car = Cast<ACar>(GetPawn()))
+	{
+		Car->SetCurrentCheckpoint(StartFinish);
+	}
 }

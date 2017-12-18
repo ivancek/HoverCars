@@ -107,7 +107,6 @@ void UCarMovementComponent::IntendFlipLeft()
 
 	if (IsUpright())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
 		FrontLeftThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 		RearLeftThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 	}
@@ -127,13 +126,11 @@ void UCarMovementComponent::IntendFlipRight()
 
 	if (IsUpright())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Airborn flip!"));
 		FrontRightThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 		RearRightThruster->FlipBurst(FlipForce * AirFlipForcePercent);
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Grounded flip!"));
 		FrontRightThruster->FlipBurst(FlipForce); 
 		RearRightThruster->FlipBurst(FlipForce);
 	}

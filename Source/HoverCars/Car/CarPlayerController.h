@@ -14,7 +14,8 @@ UCLASS()
 class HOVERCARS_API ACarPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
 public:
-	void CheckpointPassed();
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetStartFinish(AActor* StartFinish);
 };

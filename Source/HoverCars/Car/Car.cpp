@@ -24,3 +24,23 @@ void ACar::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+AActor* ACar::GetCurrentCheckpoint()
+{
+	return CurrentCheckpoint;
+}
+
+void ACar::SetCurrentCheckpoint(AActor* Checkpoint)
+{
+	CurrentCheckpoint = Checkpoint;
+}
+
+void ACar::IncrementLap()
+{
+	LapsPassed++;
+}
+
+int ACar::GetCurrentLap()
+{
+	return LapsPassed;
+}

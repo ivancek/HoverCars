@@ -2,7 +2,7 @@
 
 #include "CarAIController.h"
 #include "CarMovementComponent.h"
-#include "GameFramework/Pawn.h"
+#include "Car/Car.h"
 #include "Engine/World.h"
 #include "Runtime/Engine/Public/TimerManager.h"
 #include "Kismet/GameplayStatics.h"
@@ -34,6 +34,20 @@ void ACarAIController::Tick(float DeltaTime)
 	}
 
 	MoveToTarget(Target);
+}
+
+void ACarAIController::SetNextCheckpoint(AActor * Checkpoint)
+{
+	SetTarget(Checkpoint);
+}
+
+void ACarAIController::SetStartFinish(AActor * StartFinish)
+{
+	if (auto Car = Cast<ACar>(GetPawn()))
+	{
+		Car->SetCurrentCheckpoint(StartFinish);
+		SetTarget(StartFinish);
+	}
 }
 
 void ACarAIController::SetTarget(AActor* TargetToSet)

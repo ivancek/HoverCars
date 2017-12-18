@@ -21,11 +21,17 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	
 	UFUNCTION(BlueprintCallable, Category = "Input")
-	void SetTarget(AActor* TargetToSet);
+	void SetNextCheckpoint(AActor* Checkpoint);
+
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetStartFinish(AActor* StartFinish);
 
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Setup")
 	UCarMovementComponent* MovementComponent = nullptr;
+	
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetTarget(AActor* TargetToSet);
 
 private:
 	

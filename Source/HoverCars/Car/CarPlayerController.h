@@ -16,6 +16,8 @@ class HOVERCARS_API ACarPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
+	void Tick(float DeltaSeconds) override;
+
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetStartFinish(AActor* StartFinish);
 };

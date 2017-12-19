@@ -59,7 +59,10 @@ void UCarMovementComponent::IntendMoveForward(float Throw)
 	if (!FrontLeftThruster || !FrontRightThruster || !RearLeftThruster || !RearRightThruster) { return; }
 
 	// No throttle when not grounded.
-	if (!IsGrounded()) { return; }
+	if (!IsGrounded())
+	{
+		Throw = 0; 
+	}
 
 	Throw = FMath::Clamp(Throw, -1.0f, 1.0f);
 
@@ -184,9 +187,9 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 	auto ForwardThrow = FVector::DotProduct(ForwardDirection, ForwardIntention);
 	
 	// Attempt to brake.
-	if (FMath::Abs(TurnThrow.Z) > 0.3f && Speed > 8000)
+	if (FMath::Abs(TurnThrow.Z) > 0.4f && Speed > 8000)
 	{
-		IntendMoveForward(-1);
+		IntendMoveForward(-0.75f);
 	}
 	else
 	{

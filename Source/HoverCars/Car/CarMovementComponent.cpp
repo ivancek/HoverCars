@@ -51,7 +51,7 @@ bool UCarMovementComponent::IsGrounded()
 	auto UpNormal = CarRoot->GetUpVector().GetSafeNormal();
 	auto EndLocation = CompLocation - (UpNormal * GroundedDistance);
 
-	return GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_Visibility);
+	return GetWorld()->LineTraceSingleByChannel(OUT HitResult, CompLocation, EndLocation, ECollisionChannel::ECC_GameTraceChannel1);
 }
 
 void UCarMovementComponent::IntendMoveForward(float Throw)

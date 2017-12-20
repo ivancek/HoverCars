@@ -170,9 +170,9 @@ void UCarMovementComponent::Stabilize(float DeltaTime)
 	}
 }
 
-void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool bForceMaxSpeed)
+void UCarMovementComponent::RequestPathMove(const FVector& MoveInput)
 {
-	auto ForwardIntention = MoveVelocity.GetSafeNormal();
+	auto ForwardIntention = MoveInput.GetSafeNormal();
 	auto ForwardDirection = GetOwner()->GetActorForwardVector().GetSafeNormal();
 
 	auto TurnThrow = FVector::CrossProduct(ForwardDirection, ForwardIntention);
@@ -187,7 +187,7 @@ void UCarMovementComponent::RequestDirectMove(const FVector & MoveVelocity, bool
 	auto ForwardThrow = FVector::DotProduct(ForwardDirection, ForwardIntention);
 	
 	// Attempt to brake.
-	if (FMath::Abs(TurnThrow.Z) > 0.4f && Speed > 8000)
+	if (FMath::Abs(TurnThrow.Z) > 0.5f && Speed > 8000)
 	{
 		IntendMoveForward(-0.75f);
 	}

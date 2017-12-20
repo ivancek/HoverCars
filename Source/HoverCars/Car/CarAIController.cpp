@@ -56,7 +56,7 @@ void ACarAIController::SetTarget(AActor* TargetToSet)
 
 void ACarAIController::MoveToTarget(AActor* Target)
 {
-	MoveToActor(Target, AcceptanceRadius);
+	MoveToActor(Target, AcceptanceRadius, false, true, true, 0, true);
 }
 
 void ACarAIController::FlipIfNeeded()

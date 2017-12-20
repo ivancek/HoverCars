@@ -37,7 +37,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	bool IsUpright();
 	
-	virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
+	//virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
+	virtual void RequestPathMove(const FVector& MoveInput) override;
 
 private:
 	void Hover();

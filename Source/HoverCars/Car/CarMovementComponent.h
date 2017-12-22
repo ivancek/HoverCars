@@ -37,6 +37,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	bool IsUpright();
 	
+	void SetSidewaysStabilizeAmount(float Amount);
+
 	//virtual void RequestDirectMove(const FVector& MoveVelocity, bool bForceMaxSpeed) override;
 	virtual void RequestPathMove(const FVector& MoveInput) override;
 

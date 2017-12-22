@@ -13,9 +13,9 @@ void ACarAIController::BeginPlay()
 
 	MovementComponent = GetPawn()->FindComponentByClass<UCarMovementComponent>();
 	
-	if (!ensure(MovementComponent))
+	if (ensure(MovementComponent))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Cannot find movement component"));
+		MovementComponent->SetSidewaysStabilizeAmount(0.08f);
 	}
 
 	GetWorldTimerManager().SetTimer(FlipTimer, this, &ACarAIController::FlipIfNeeded, 2, true, 2);

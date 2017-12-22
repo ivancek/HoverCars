@@ -43,6 +43,11 @@ bool UCarMovementComponent::IsUpright()
 	return CarRoot->GetUpVector().GetSafeNormal().Z > 0.5f;
 }
 
+void UCarMovementComponent::SetSidewaysStabilizeAmount(float Amount)
+{
+	SidewaysStabilizeAmount = Amount;
+}
+
 // The car is grounded when his line trace hits the floor.
 bool UCarMovementComponent::IsGrounded()
 {
@@ -179,20 +184,12 @@ void UCarMovementComponent::RequestPathMove(const FVector& MoveInput)
 	
 	auto Sign = FMath::Sign(TurnThrow.Z); // Get the sign of current throw.
 
-	IntendTurn(Sign);
+	IntendTurn(TurnThrow.Z * 2);
 
 	// When going backwards, reverse turn throw so the car behaves as if on wheels.
 	auto ForwardSpeed = FVector::DotProduct(CarRoot->GetForwardVector(), CarRoot->GetComponentVelocity().GetSafeNormal());
 	auto Speed = CarRoot->GetComponentVelocity().Size();
 	auto ForwardThrow = FVector::DotProduct(ForwardDirection, ForwardIntention);
 	
-	// Attempt to brake.
-	if (FMath::Abs(TurnThrow.Z) > 0.5f && Speed > 8000)
-	{
-		IntendMoveForward(-0.75f);
-	}
-	else
-	{
-		IntendMoveForward(ForwardThrow);
-	}
+	IntendMoveForward(ForwardThrow);
 }

@@ -14,8 +14,10 @@ ACheckpoint::ACheckpoint()
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(FName("Root"));
 
+	auto BoxExtent = FVector(1000, 2500, 500);
+
 	Trigger = CreateDefaultSubobject<UBoxComponent>(FName("Trigger"));
-	Trigger->SetBoxExtent(FVector(1000, 2500.0f, 500.0f));
+	Trigger->SetBoxExtent(BoxExtent);
 	Trigger->SetCollisionProfileName(TEXT("Checkpoint"));
 	Trigger->SetRelativeTransform(FTransform(FVector(0, 0, 500)));
 	Trigger->SetCanEverAffectNavigation(false);
